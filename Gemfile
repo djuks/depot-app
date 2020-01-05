@@ -35,6 +35,12 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'draper'
 
+gem 'i18n-js'
+
+gem 'webpacker', '~> 3.0'
+
+gem 'activemodel-serializers-xml', github: 'rails/activemodel-serializers-xml'
+
 group :development, :test do
   gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -43,11 +49,7 @@ group :development, :test do
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
 
-  gem 'i18n-js'
 
-  gem 'webpacker', '~> 3.0'
-
-  gem 'activemodel-serializers-xml', github: 'rails/activemodel-serializers-xml'
 
 end
 
